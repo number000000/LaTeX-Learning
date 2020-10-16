@@ -1,7 +1,7 @@
 Lecture 2 Notes
 ===============
 
-## LeTeX commands: 
+## LaTeX commands: 
 start with \ followed by the name of the command (letters only) and arguments inside {}
 
 ## Switches:
@@ -9,7 +9,7 @@ Switches is limited to the group inside {}\
 Ex. \bf is the boldface command
 
 ## Comments:
-Anything follows % will be comments\
+Anything follows % will be comment\
 Ex: 
 ```LaTeX
 %This is a comment
