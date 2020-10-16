@@ -14,6 +14,8 @@ Ex:
 ```LaTeX
 %This is a comment
 ```
+## Tool we use: Texworks
+Texworks calls LaTeX (Texworks is like IDE). Texworks also contains a PDF viewer. Texworks has a rudimentary text editor.
 
 ## LaTeX Environment:
 ```LaTeX
@@ -31,24 +33,63 @@ Hello world % Hellow world will be centered
 \end{document}
 ```
 
-## Debug
-#### Option 1: Help
-Type "?" and hit return, you can get a list of option you can choose:\
-![Help](/Images/Lecture 1 - Help.jpg)
-#### Option 2: Go on
-Hit return\
-Notice that there is a outout pdf file saved to where your project is saved.\
-![Go on](/Images/Lecture 1 - Go on.jpg)
-#### Option 3: Quit
-Type "x" and hit the return, the compiler stops and the console shows this message:\
-![Quit](/Images/Lecture 1 - Quit.jpg)
+## LaTeX files:
+* `first_project.tex`: LaTeX file
+* `first_project.pdf`: PDF file
+* `first_project.log`: Plain text: log-file (warnings, errors)
+* `first_project.aux`: aux stands for **auxilliary**. Plain text: keeps track of internals
 
-## Some syntaxs for LaTeX:
-* **Characters:** A-Z, a-z, 0-9, some symbols except reserved characters
-* **Reserved characters:** # $ % ^ & _ {} ~ \
-* **Grouping things using curly brackets {}**\
-{\bf This is bold.} This is no longer bold. -----> **This is bold.** This is no longer bold.
-* **Commands:**\
-\ + name of the command + {argument}\
-***ex.** \hspace{1in} -----> leave horizontal space for 1 inch (1in can be 1cm, which means 1 centimeter)*\
-      *Hello \hspace{1in} world! -----> Hello             world!*
+## LaTeX packages:
+Packages enhance the capabilities of LaTeX. 
+Package can take option too.
+```LaTeX
+\usepackage[options]{packagename1}
+\usepackage[options]{packagename2}
+\usepackage{packagename3, packagename4, packagename5}
+```
+color package:
+```LaTeX
+\documentclass{...}
+
+\usepackage{color} % use package
+
+\begin{document}
+\end{document}
+```
+```LaTeX
+Hello {color{red} World} again! %"World" will be red.
+```
+
+## Code syntax:
+documentclass takes two arguments:
+```LaTeX
+\documentclass[optional]{class}
+```
+Class: book, article, extarticle, letter\
+Option: you can have many options seperated by commas
+Ex.
+```LaTeX
+\documentclass[letterpaper, notitlepage, 10pt]{article}
+```
+
+## Line breaks
+* blank line between two paragraphs should make two paragraphs:
+```LaTeX
+...
+paragraph one with some texts
+
+paragraph two with some texts
+...
+```
+* `\\`:
+```LaTex
+The line should break after\\ this.
+```
+* `\break`:
+```LaTeX
+This line should break after \break this and have a weird spacing format.
+```
+* `\hfil\break`:
+```LaTeX
+This line won't have \hfil\break weird spacing format.
+```
