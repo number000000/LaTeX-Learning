@@ -1,0 +1,30 @@
+\documentclass[letterpaper, notitlepage, 12pt]{article} %letterpaper: paper size; npt: the size of letters
+
+\usepackage{color} %contains switches for color
+\usepackage[margin=2cm]{geometry}%margin: the margin of the up, bottom, left, right of the page
+
+\begin{document}
+\title{The third seminar}%The title of the article
+\author{Meihui Liu}%The author of the article
+%\date{October 3030}
+\date{\today}%The date you wrote the article
+\maketitle
+
+\section{Math equation}
+\label{equations}
+My first equation is $F=ma$. My first equation is $F=m   a$.
+My second equation is \( a=F/m\). My second equation is \[ a=F/m\].
+
+My second equation is
+\begin{equation}
+\label{acce1}
+a=F/m.
+\end{equation}
+My first equation is
+\begin{equation}
+\label{acce2}
+F = ma
+\end{equation}
+
+In the Sec.~\ref{equations}, I will reference to the equation (\ref{acce1}) above and then reference to the equation (\ref{acce2}).
+\end{document}
