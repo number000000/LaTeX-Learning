@@ -93,3 +93,14 @@ This line should break after \break this and have a weird spacing format.
 ```LaTeX
 This line won't have \hfil\break weird spacing format.
 ```
+
+## Section
+Format your section title
+```LaTex
+\section{Name of the section}
+\subsection{Name of the smaller section}
+```
+## Begin in a new page
+```LaTeX
+\newpage
+```
