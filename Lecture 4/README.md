@@ -192,7 +192,7 @@ The argument ``[First]`` is optional.
 \item[Last] we are done.
 \end{description}
 ```
-Output:
+Output:\
 ![Colored list](https://github.com/number000000/LaTeX-Learning/blob/main/Images/Lecture%204%20-%20Colored%20List.JPG)
 
 ## Bibliography
@@ -211,5 +211,5 @@ a citation of another article
 
 \end{document}
 ```
-Output:
+Output:\
 ![bibliography](https://github.com/number000000/LaTeX-Learning/blob/main/Images/Lecture%204%20-%20bibliography.JPG?raw=true)
