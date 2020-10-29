@@ -212,4 +212,4 @@ a citation of another article
 \end{document}
 ```
 Output:
-![bibliography]()
+![bibliography](https://github.com/number000000/LaTeX-Learning/blob/main/Images/Lecture%204%20-%20bibliography.JPG?raw=true)
