@@ -193,6 +193,23 @@ The argument ``[First]`` is optional.
 \end{description}
 ```
 Output:
-![Colored list]()
+![Colored list](https://github.com/number000000/LaTeX-Learning/blob/main/Images/Lecture%204%20-%20Colored%20List.JPG)
 
 ## Bibliography
+```LaTeX
+\begin{document}
+
+Some random text\cite{article1}. Some random text\cite{article2}.
+
+\begin{thebibliography}{99}
+\bibitem{article1}
+a citation of an article
+
+\bibitem{article2}
+a citation of another article
+\end{thebibliography}
+
+\end{document}
+```
+Output:
+![bibliography]()
