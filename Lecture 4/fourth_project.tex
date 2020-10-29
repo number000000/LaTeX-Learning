@@ -1,0 +1,103 @@
+\documentclass{article}
+
+\renewcommand{\labelitemi}{$\bullet$} %preamble
+\usepackage{enumerate}
+\usepackage{color}
+
+\begin{document}
+
+\begin{itemize}
+\item the first entry here
+\item try
+\item[-] Second line.
+\item[*] Third line.
+\item[$>$] etc
+\end{itemize}
+
+\renewcommand{\labelitemi}{\textgreater}
+
+\begin{itemize}
+\item the first entry here
+\item Second line.
+\item Third line.
+\item etc
+\end{itemize}
+
+\renewcommand{\labelitemi}{$\bullet$}
+%Nested List
+\begin{itemize}
+\item the first entry here
+\begin{itemize}
+\item Second line.
+\begin{itemize}
+\item Third line.
+\end{itemize}
+\end{itemize}
+\item etc
+\end{itemize}
+
+%customize nested list
+\renewcommand{\labelitemi}{\textgreater}
+\renewcommand{\labelitemii}{$\star$}
+\renewcommand{\labelitemiii}{$\bullet$}
+\begin{itemize}
+\item the first entry here
+\begin{itemize}
+\item Second line.
+\begin{itemize}
+\item Third line.
+\end{itemize}
+\end{itemize}
+\item etc
+\end{itemize}
+
+%Numbered Lists
+\begin{enumerate}[(i)]
+\item hey
+\begin{enumerate}[1]
+\item inner one
+\item inner two
+\end{enumerate}
+\item two
+\end{enumerate}
+
+\begin{enumerate}[Excerc{i}se 1]
+\item hey
+\begin{enumerate}[Excercise 1]
+\item inner one
+\item inner two
+\end{enumerate}
+\item two
+\end{enumerate}
+
+%Description List
+\begin{description}
+\item[First] we add this.
+\item[Second] we minus this.
+\item[Last] we are done.
+\end{description}
+%No argument
+\begin{description}
+\item we add this.
+\item we minus this.
+\item we are done.
+\end{description}
+
+%color
+\begin{description}
+\item[\color{blue} First] we add this.
+\item[\color{red} Second] we minus this.
+\item[Last] we are done.
+\end{description}
+
+
+Some random text\cite{article1}. Some random text\cite{article2}.
+%bibliography
+\begin{thebibliography}{99}
+\bibitem{article1}
+a citation of an article
+
+\bibitem{article2}
+a citation of another article
+\end{thebibliography}
+\end{document}
