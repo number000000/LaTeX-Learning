@@ -35,4 +35,4 @@ Things you put into the BibTeX:
 ```
 ``title``, ``author``, ``journal`` ... are fields. Don't use ``%`` to comment out unwanted fields, just delete them.\
 ``{}`` can be ``""``.\
-``cilmateChange`` is the label of the citation. You can refer to this citation using this label in your article. 
+``climateChange`` is the label of the citation. You can refer to this citation using this label in your article. 
