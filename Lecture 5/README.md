@@ -34,4 +34,4 @@ Things you put into the BibTeX:
 }
 ```
 ``{}`` can be ``""``.\
-``cilmateChange`` is the label of the citation. You can refer to this citation using this label in your article. \
+``cilmateChange`` is the label of the citation. You can refer to this citation using this label in your article. 
