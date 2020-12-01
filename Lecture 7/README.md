@@ -58,7 +58,8 @@ Want to automaticaly resize the expressions that are surrounded by parenthesises
 ```
 Compare the above code with `(\frac12a+\frac{a+b}{c+d})` and you will find that the parenthesis is extended so that it can cover the entire expression from top to down.
 > Some delimiters:\
-> (a), [a], \{a\}, |a|, \|a\|, \langle a \rangle \
+> (a), [a], \{a\}, |a|, \|a\|, \langle a \rangle
+
 With the help of this function, we can write a expression of a derivative to the specific value.
 ```LaTeX
 \left. \frac{df}{dx} \right|_{x=0}
