@@ -52,7 +52,8 @@ They can be put in display and inline mode.
 \prod_1^{10} \omega_k
 ```
 ## Delimiters
-Want to automaticaly resize the expressions that are surrounded by parenthesises? Use `\left``\right` follow the delimiters you want!
+Want to automaticaly resize the expressions that are surrounded by parenthesises? Use `\left``\right` follow the delimiters you want!\
+Note: `\left` and `\right` should be on the same line when you use `\\` to spilt lines. Or you can put `\right.` or `\left.` before the line breaks.
 ```LaTeX
 \left(\frac12a+\frac{a+b}{c+d}\right)
 ```
