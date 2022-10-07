@@ -130,4 +130,4 @@ Some weird symbols:
 Symbol for mercury: \mercury, and symbol for earth: \earth.
 ```
 \
-There are many symbols you can use. Just check **Comprehensive LaTeX Symbol List** or **Detexify (A website)**.
+There are many symbols you can use. Just check **Comprehensive LaTeX Symbol List** or [**Detexify**](https://detexify.kirelabs.org/classify.html).
